@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+## Heading Dual
+--------------------------------------------------------------*/
+.xp-heading {
+  font-family: "DM Sans", sans-serif;
+}
+.xp-heading > span {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #191717;
+  margin-bottom: 10px;
+}
+.xp-heading > span.is_highlight {
+  background: #C19977;
+  padding: 2px 10px;
+  border: 1px solid #C19977;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.xp-heading > span.is_line {
+  padding-left: 60px;
+}
+.xp-heading > span.is_line:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  width: 45px;
+  height: 1px;
+  background: #C19977;
+}
+.xp-heading .main-head {
+  margin-bottom: 0;
+}
